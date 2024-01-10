@@ -14,7 +14,8 @@ public class ConflictsController {
 
 @PostMapping("/conflicts")
     public String postConflicts(){
-        return "Posting conflicts";
+        return "Pos" +
+                "deleting conflicts";
 
     }
 
