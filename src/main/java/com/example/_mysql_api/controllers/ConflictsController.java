@@ -4,13 +4,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class TestController {
+public class ConflictsController {
 
-    @GetMapping("/test")
-    public String getTest(){
-        return "This is a test to test the controller";
+    @GetMapping("/Conflicts")
+    public String getConflicts(){
+        return "Getting conflicts";
+    }
+
 
 
 }
-
-
