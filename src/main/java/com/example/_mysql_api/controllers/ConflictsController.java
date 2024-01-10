@@ -1,6 +1,7 @@
 package com.example._mysql_api.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -11,6 +12,10 @@ public class ConflictsController {
         return "Getting conflicts";
     }
 
+@PostMapping("/conflicts")
+    public String postConflicts(){
+        return "Posting conflicts";
 
+    }
 
 }
