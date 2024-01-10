@@ -7,10 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
     @GetMapping("/test")
-    public String getTest(){
+git    public String getTest() {
         return "This is a test to test the controller";
 
 
+    }
 }
 
 
